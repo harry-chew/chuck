@@ -1,7 +1,5 @@
 const saveButton = document.getElementById('save');
-
 saveButton.addEventListener('click', saveJoke);
-
 
 function saveJoke() {
     console.log("saving joke to file");
